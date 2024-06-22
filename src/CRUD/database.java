@@ -59,7 +59,7 @@ public class database {
         }
     }
     
-    public void hapusUji(String nik, String nama, String telp, String alamat) {
+    public void hapusUji(String nik) {
         try {
             String sql = "delete from uji where nik = ?";
             PreparedStatement perintah = koneksiDB.prepareStatement(sql);

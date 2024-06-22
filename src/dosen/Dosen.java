@@ -7,6 +7,7 @@ import datadosen.*;
 import java.util.Scanner;
 import java.sql.Date;
 import CRUD.*;
+import GUI.frameUtama;
 
 /**
  *
@@ -18,14 +19,15 @@ public class Dosen {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        new frameUtama().setVisible(true);
         
         //database obj = new database();
         //obj.simpanUji("2210010033", "Jamilatuzzahra", "087737663031", "Jl. Kelayan B");
         //obj.ubahUji("2210010033", "Jamilatuzzahra", "087737", "Jl. Kelayan B");
-        //obj.hapusUji("2210010033", "","","");
+        //obj.hapusUji("2210010033");
                 
         
-        penelitian_crud obj = new penelitian_crud();
+        //penelitian_crud obj = new penelitian_crud();
         //obj.inputPenelitian(033, "sistem informasi universitas A", "kuantitatif", "rektorat", 9000000, "Jamilatuzzahra", "anggota A", "anggota B", "anggota C");
         //obj.updatePenelitian(033, "sistem informasi universitas A", "kuantitatif", "fakultas", 9000000, "Jamilatuzzahra", "anggota A", "anggota B", "anggota C");
         //obj.deletePenelitian(033);
